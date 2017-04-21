@@ -1,19 +1,17 @@
 package com.truiton.rtmpplayer;
 
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
 import com.example.angelo.app_video1.R;
 import android.media.MediaPlayer;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.MediaController;
 import android.widget.VideoView;
 
 import io.vov.vitamio.LibsChecker;
-import io.vov.vitamio.MediaPlayer;
-import io.vov.vitamio.widget.MediaController;
-import io.vov.vitamio.widget.VideoView;
 
 
-public class MainActivity extends ActionBarActivity {
+
+public class MainActivity extends AppCompatActivity {
     private static final String TAG = "MainActivity";
     private String path;
     //private HashMap<String, String> options;
