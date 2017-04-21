@@ -2,8 +2,10 @@ package com.truiton.rtmpplayer;
 
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
-
 import com.example.angelo.app_video1.R;
+import android.media.MediaPlayer;
+import android.widget.MediaController;
+import android.widget.VideoView;
 
 import io.vov.vitamio.LibsChecker;
 import io.vov.vitamio.MediaPlayer;
