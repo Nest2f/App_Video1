@@ -68,5 +68,18 @@ public class MainActivity extends ActionBarActivity {
             }
         });
 
+        mVideoView = (VideoView) findViewById(R.id.vitamio_videoView);
+        path = "mms://beotelmedia.beotel.net/studiob";
+        mVideoView.setVideoPath(path);
+        mVideoView.setMediaController(new MediaController(this));
+        mVideoView.requestFocus();
+
+        mVideoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                mediaPlayer.setPlaybackSpeed(1.0f);
+            }
+        });
+
     }
 }
