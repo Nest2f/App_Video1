@@ -16,12 +16,12 @@
         "source": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\exploded-aar\\App_Video1\\vitamio\\unspecified\\res\\drawable-xhdpi-v4\\mediacontroller_pause.png"
     },
     {
-        "merged": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png",
-        "source": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\exploded-aar\\App_Video1\\vitamio\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png"
-    },
-    {
         "merged": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png",
         "source": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\exploded-aar\\App_Video1\\vitamio\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_control_focused_holo.png"
+    },
+    {
+        "merged": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png",
+        "source": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\exploded-aar\\App_Video1\\vitamio\\unspecified\\res\\drawable-xhdpi-v4\\scrubber_secondary_holo.9.png"
     },
     {
         "merged": "D:\\App Android\\Desarrollo\\App_Video1\\vitamio-sample\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\scrubber_control_normal_holo.png",
