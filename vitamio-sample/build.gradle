@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+dependencies {
+    compile project(':vitamio')
+}
+
+android {
+    //compileSdkVersion Integer.parseInt(project.ANDROID_BUILD_SDK_VERSION)
+    compileSdkVersion 25
+   // buildToolsVersion project.ANDROID_BUILD_TOOLS_VERSION
+    buildToolsVersion "25.0.1"
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 25
+       // minSdkVersion Integer.parseInt(project.ANDROID_BUILD_MIN_SDK_VERSION)
+        //targetSdkVersion Integer.parseInt(project.ANDROID_BUILD_TARGET_SDK_VERSION)
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            res.srcDirs = ['res']
+        }
+    }
+}
+
